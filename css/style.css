@@ -7,7 +7,7 @@
 body {
   color: #212121;
   background-color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 .unstyled-list {
@@ -16,11 +16,11 @@ body {
 /* styles for header */
 
 .logo-link {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
-  color: var(--highlight-color);
+  line-height: 1.19;
+  color: #000000;
 }
 .logo-item {
   color: var(--brand-color);
@@ -69,7 +69,7 @@ body {
   line-height: 1.36;
   color: #ffffff;
 }
-.contact-buton {
+.button-active {
   color: #ffffff;
   background-color: var(--brand-color);
   cursor: pointer;
@@ -77,11 +77,11 @@ body {
   font-size: 16px;
   line-height: 1.87;
 }
-/* styles for section one */
-.section,
-.section-galery {
+.main-page {
   background-color: #e5e5e5;
 }
+/* styles for section one */
+
 .section-title {
   font-weight: 700;
   font-size: 14px;
@@ -132,11 +132,6 @@ body {
   line-height: 1.14;
   color: #ffffff;
 }
-.address-nav-location:hover,
-.address-nav-location:active,
-.address-nav-location:focus {
-  color: var(--brand-color);
-}
 .footer-contacts {
   font-weight: 400;
   font-size: 14px;
@@ -149,3 +144,24 @@ body {
   color: var(--brand-color);
 }
 /*styles for portofolio.html */
+.button {
+  color: var(--color-nav);
+  background-color: #f5f4fa;
+}
+.button:hover,
+.button:active,
+.button:focus {
+  color: #ffffff;
+  background-color: var(--brand-color);
+}
+.product-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+.domain-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--text-color);
+}
