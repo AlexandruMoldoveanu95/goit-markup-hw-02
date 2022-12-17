@@ -2,80 +2,94 @@
 <html lang="en">
   <!--my head-->
   <head>
-    <link rel="stylesheet" href=".css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
     <title>WebStudio</title>
   </head>
   <body>
     <!--my header-->
-    <header>
-      <a href="./index.html"> Web<span>Studio</span></a>
+    <header class="page-header">
+      <a href="./index.html" class="logo-link link"
+        ><span class="logo-item">Web</span>Studio</a
+      >
       <!--navigation to other pages-->
       <nav>
-        <ul>
+        <ul class="unstyled-list">
           <li>
-            <a href="./studio.html">Studio</a>
+            <a class="nav-link link" href="./studio.html">Studio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="./portofolio.html">Portfolio</a>
           </li>
           <li>
-            <a href="./portofolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a href="contacts.html">Contacts</a>
+            <a class="nav-link link" href="contacts.html">Contacts</a>
           </li>
         </ul>
       </nav>
       <!--Contact links-->
-      <ul>
+      <ul class="unstyled-list">
         <li>
-          <a href="mailto:info@devstudio.com">
+          <a class="contact-nav-mail link" href="mailto:info@devstudio.com">
             <span>info@devstudio.com</span>
           </a>
         </li>
         <li>
-          <a href="tel:+1212-772-4150"> <span> +1 212-772-4150</span></a>
+          <a class="contact-nav-tel link" href="tel:+1212-772-4150">
+            <span> +1 212-772-4150</span></a
+          >
         </li>
       </ul>
     </header>
     <!--The unique content of the page-->
-    <main>
+    <main class="main-section">
       <!--Page title-->
-      <div>
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button">Request our service</button>
+      <div class="hero-section">
+        <h1 class="hero-title">
+          EFFECTIVE SOLUTIONS FOR <br />
+          YOUR BUSINESS
+        </h1>
+        <button class="contact-buton" type="button">Request our service</button>
       </div>
       <!--The first section-->
-      <section>
-        <ul>
+      <section class="section">
+        <ul class="unstyled-list">
           <li>
-            <h3>ATTENTION TO DETAILS</h3>
-            <p>
+            <h3 class="section-title">ATTENTION TO DETAILS</h3>
+            <p class="section-text">
               We go into all the details and processes of your business to
               develop a customized solution.
             </p>
           </li>
           <li>
-            <h3>PUNCTUALITY</h3>
-            <p>
+            <h3 class="section-title">PUNCTUALITY</h3>
+            <p class="section-text">
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and deadlines.
             </p>
           </li>
           <li>
-            <h3>PUNCTUALITY</h3>
-            <p>
+            <h3 class="section-title">PUNCTUALITY</h3>
+            <p class="section-text">
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and deadlines.
             </p>
           </li>
           <li>
-            <h3>PLANNING</h3>
-            <p>
+            <h3 class="section-title">PLANNING</h3>
+            <p class="section-text">
               You will be able to observe and participate in every phase of
               solution development and implementation.
             </p>
           </li>
           <li>
-            <h3>mODERN TECHNOLOGIES</h3>
-            <p>
+            <h3 class="section-title">mODERN TECHNOLOGIES</h3>
+            <p class="section-text">
               We use innovative tools to solve assigned tasks. It's time to
               simplify work processes.
             </p>
@@ -83,9 +97,9 @@
         </ul>
       </section>
       <!--The second section-->
-      <section>
-        <h2>What we do</h2>
-        <ul>
+      <section class="section-galery">
+        <h2 class="section-work">What we do</h2>
+        <ul class="unstyled-list">
           <li>
             <img src="images/img01.jpg" alt="box1" width="370" />
           </li>
@@ -98,17 +112,17 @@
         </ul>
       </section>
       <!--The third section-->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
+      <section class="section-team">
+        <h2 class="section-work">Our Team</h2>
+        <ul class="unstyled-list">
           <li>
             <img
               src="images/Our-Team/img(1).jpg"
               alt="Christopher Walker"
               width="260"
             />
-            <h3>Christopher Walker</h3>
-            <p>Product Designer</p>
+            <h3 class="name-person">Christopher Walker</h3>
+            <p class="function-employee">Product Designer</p>
           </li>
           <li>
             <img
@@ -116,8 +130,8 @@
               alt="Kylie Evans"
               width="260"
             />
-            <h3>Kylie Evans</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name-person"></h3>Kylie Evans</h3>
+            <p class="function-employee">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -125,8 +139,8 @@
               alt="Ryan Harris"
               width="260"
             />
-            <h3>Ryan Harris</h3>
-            <p>Marketing</p>
+            <h3 class="name-person">Ryan Harris</h3>
+            <p class="function-employee">Marketing</p>
           </li>
           <li>
             <img
@@ -134,30 +148,37 @@
               alt="Tyler Moore"
               width="260"
             />
-            <h3>Tyler Moore</h3>
-            <p>UI Designer</p>
+            <h3 class="name-person">Tyler Moore</h3>
+            <p class="function-employee">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!--footer pages-->
-    <footer>
+    <footer class="page-footer">
       <!--logo pages-->
-      <a href="index.html"> <span>Web</span><span>Studio</span></a>
+      <a class="logo-footer link" href="index.html">
+        <span class="logo-footer-item">Web</span>Studio</a
+      >
 
       <!--address and contact details-->
-      <address>
-        <ul>
+      <address class="address-nav">
+        <ul class="unstyled-list">
           <li>
-            <a href="https://goo.gl/maps/WX2whz8Sf4KxUwsg9" target="_blank"
+            <a
+              class="link address-nav-location"
+              href="https://goo.gl/maps/WX2whz8Sf4KxUwsg9"
+              target="_blank"
               >695 Park Ave, NY 10065, USA</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com:">info@devstudio.com</a>
+            <a class="link footer-contacts" href="mailto:info@devstudio.com:"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+1212-772-4150">+1 212-772-4150 </a>
+            <a class="link footer-contacts"  href="tel:+1212-772-4150">+1 212-772-4150 </a>
           </li>
         </ul>
       </address>
