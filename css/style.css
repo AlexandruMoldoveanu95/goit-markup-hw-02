@@ -70,12 +70,17 @@ body {
   color: #ffffff;
 }
 .button-active {
-  color: #ffffff;
   background-color: var(--brand-color);
+  color: #ffffff;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+}
+.button-active:hover,
+.button-active:active,
+.button-active:focus {
+  background-color: #188ce8;
 }
 .main-page {
   background-color: #e5e5e5;
@@ -127,13 +132,11 @@ body {
   color: var(--brand-color);
 }
 .address-nav-location {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   color: #ffffff;
 }
 .footer-contacts {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   color: rgba(255, 255, 255, 0.6);
@@ -144,24 +147,24 @@ body {
   color: var(--brand-color);
 }
 /*styles for portofolio.html */
-.button {
+.button-nav {
   color: var(--color-nav);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
-.button:hover,
-.button:active,
-.button:focus {
+.button-nav:hover,
+.button-nav:active,
+.button-nav:focus {
   color: #ffffff;
   background-color: var(--brand-color);
 }
 .product-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 .domain-description {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1, 87;
   color: var(--text-color);
 }
